@@ -18,8 +18,8 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 #' Util function that set the matrix and the inverse in an environment
-#' @param x an invertible matrix
-cacheSolve <- function(x, ...) {
+#' @param cacheMatrix an invertible matrix
+cacheSolve <- function(cacheMatrix) {
         ## Return a matrix that is the inverse of 'x'
         inv <- cacheMatrix$getInverse()
 
